@@ -1,13 +1,5 @@
 create database production;
 
-drop table production.brands;
-drop table production.stocks;
-drop table production.categories;
-drop table production.products;
-drop table sales.stores;
-drop table sales.staffs;
-
-
 #1
 create table production.stocks(
 	store_id int ,
